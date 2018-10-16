@@ -19,3 +19,9 @@
   from{ bottom:-100px; opacity:0 }
   to{ bottom:0; opacity:1 }
 }
+
+  body{
+    background: url(/assets/img/fondo1.jpg)50% repeat fixed;
+    min-width: 1000px;
+
+  }
