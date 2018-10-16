@@ -12,6 +12,7 @@ const APP_ROUTES:Routes =[
 
 {path:'home',component:HomeComponent},
 {path:'body',component:BodyComponent},
+{path:'contacto',component:ContactoComponent},
 {path:'**',pathMatch: 'full', redirectTo:'home'}
 
 ];

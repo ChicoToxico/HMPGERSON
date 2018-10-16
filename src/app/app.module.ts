@@ -11,6 +11,7 @@ import { HomeComponent } from './components/home/home.component';
 import { BodyComponent } from './components/home/body/body.component';
 import { RegistrosComponent } from './components/forms/registros/registros.component';
 import { ContactoComponent } from './components/forms/contacto/contacto.component';
+import { HeaderComponent } from './components/shared/header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactoComponent } from './components/forms/contacto/contacto.componen
     HomeComponent,
     BodyComponent,
     RegistrosComponent,
-    ContactoComponent
+    ContactoComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

@@ -2,7 +2,7 @@
   <div class="form_top">
     <h2>Registrate</h2>
   </div>
-  <form class="form_reg" action="index.html" method="post">
+  <form class="form_reg" action="contacto.component.html" method="post">
     <input class="input" type="text" placeholder="&#128527; Nombre"required autofocus>
     <input class="input" type="email" placeholder="&#9993; Email"required>
     <input class="input" type="tel" placeholder="&#128241; Telefono"required>
@@ -43,7 +43,11 @@
   </div>
 
     <div class="btn_form">
-    <input class="btn_submit" type="submit" name="" value="Registrar">
+      <a [routerLink]="['/contacto']"> cc </a>
+ <input class="btn_submit" type="submit" name="" value="Registrar">
     </div>
   </form>
 </div>
+<script src="/components/registros/app.js">
+
+</script>
