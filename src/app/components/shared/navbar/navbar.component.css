@@ -1,31 +1,42 @@
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.navbar {
-  margin-bottom: 20px;
-}
 
 /***********************************
 ************************************
             HEADER
 ************************************
 ***********************************/
+
+/**----------------------------**/
+/*resolucion de notebok  */
+@media (min-width:600px) {
+  .header{
+    max-width: 1024px;
+  }
+}
+/*resolucion de pc pantalla mediana */
+@media (min-width:600px) {
+  .header{
+    max-width: 100%;
+  }
+}
+/*resolucion de pc pantalla Grande  */
+@media (min-width:1200px) {
+  .header{
+    max-width: 1980px;
+  }
+}
+/*-----------------------------------*/
 .header{
     background: url('/assets/img/dd.png') no-repeat fixed;
     background-size: cover;
-    min-height: 650px;
+    min-height: 600px;
     position: relative;
 }
 .bg-color
 {
-    background-color: rgba(0, 0, 0, 0.5);
-    min-height: 650px;
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 600px;
 }
-#main-header
-{
-}
+
 .navbar-default {
     background-color: transparent;
     border:0px;
@@ -108,6 +119,9 @@ h2.bnr-sub-title
 .bnr-para
 {
     font-weight: 300;
+    margin-left: 25px;
+    margin-right: 25px;
+
 }
 .btn-download, .btn-more, .btn-download:hover, .btn-download:focus, .btn-more:focus
 {
@@ -119,7 +133,7 @@ h2.bnr-sub-title
     font-weight: 300;
     line-height: 24px;
     padding: 10px 30px;
-    border-radius: 60px;
+    border-radius: 20px;
     margin: 50px 10px 0 0;
     outline: none !important;
     -webkit-backface-visibility: hidden;
@@ -144,6 +158,9 @@ h2.bnr-sub-title
     color: #fff;
 }
 
+.brn-btn{
+  padding-bottom: 50px;
+}
 .overlay-detail a i{
    text-align: center;
    position: absolute;
