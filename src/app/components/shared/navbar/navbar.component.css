@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Poor+Story|Varela+Round');
 /***********************************
 ************************************
             HEADER
@@ -60,7 +60,7 @@
 }
 .navbar-default .navbar-brand {
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poor Story', cursive;
     font-weight: 700;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
@@ -101,7 +101,7 @@
 }
 .bnr-title, .bnr-sub-title
 {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 h1.bnr-title
 {
@@ -133,7 +133,7 @@ h2.bnr-sub-title
     font-weight: 300;
     line-height: 24px;
     padding: 10px 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 50px 10px 0 0;
     outline: none !important;
     -webkit-backface-visibility: hidden;

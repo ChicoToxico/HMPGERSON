@@ -1,6 +1,8 @@
 const cors = require('cors');
+const morgan = require('morgan');
 const express = require('express');
 const app = express();
+//const {mongoose} = require('./database');// enlace para conectar la base de datos en mongodb
 const IndexRoutes = require('./routes/index');
 const TaskRoutes = require('./routes/task');
 // configuracion del puerto
@@ -11,6 +13,7 @@ app.engine('html', require('ejs').renderFile);
 app.set('view engine','ejs');
 
 //middlewares
+app.use(morgan('dev'));
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));

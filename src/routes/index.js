@@ -1,5 +1,5 @@
 const router = require('express').Router();
 router.get('/',(req,res,next)=>{
-  res.send('hola');
+  res.send('hola gers');
 });
 module.exports = router;
